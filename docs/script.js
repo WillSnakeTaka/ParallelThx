@@ -35,3 +35,9 @@ function reveal(planNumber) {
 function closeReveal(planNumber) {
     toggleReveal(planNumber, 'hide');
 }
+
+const audio = new Audio('music.wav');
+document.getElementById('play-button').addEventListener('click', () => {
+  audio.play();
+});
+
