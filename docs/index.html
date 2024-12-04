@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <h1 style="color: #aa9c60; font-weight: bold; font-family: 'Fredoka One', cursive;">
+            A Love & Hate E-Card, now valued at $2005 💀
+        </h1>
+        <audio autoplay loop>
+            <source src="music.wav" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="lottery-container">
+            <div class="lottery-box" style="color: #706742; font-weight: bold; font-family: 'Pangolin', cursive;" onclick="reveal(1)">Plan A</div>
+            <div class="lottery-box" style="color: #706742; font-weight: bold; font-family: 'Pangolin', cursive;" onclick="reveal(2)">Plan B</div>
+            <div class="lottery-box" style="color: #706742; font-weight: bold; font-family: 'Pangolin', cursive;" onclick="reveal(3)">Plan C</div>
+        </div>
+        <div id="reveal1" class="reveal hidden">
+            <p>🌟 Dear BXX, Welcome to the BC Theatre! 🎭✨</p>
+            <p>🎉 Please take a moment to read the following: 🎉</p>
+            <p>📝 Dear Professor LXX,</p>
+            <p>💀 I have dropped the class, which now has <strong>0 students</strong>. Feel free to give everyone a <strong>0</strong>. 🙂</p>
+            <p>🌸 If this message feels too harsh, then please help me improvise an excuse.🤡</p>
+            <p>Thank you for understanding, and best wishes!</p>
+            <button onclick="closeReveal(1)">Close</button>
+        </div>
+        <div id="reveal2" class="reveal hidden">
+            <p>🎹✨ Here is our Plan B! ✨🎹</p>
+            <p>🌟 After I play one note on the piano, I will kindly take my leave. Please read the following: 🌟</p>
+            <p>📝 Dear Professor LXX,</p>
+            <p>🎶 I have fulfilled your requirement of attending and playing in the concert. Thank you very much for this opportunity! 🎵💀</p>
+            <p>🌸 Wishing you and your class all the best in future performances! 🌸</p>
+            <button onclick="closeReveal(2)">Close</button>
+        </div>
+        <div id="reveal3" class="reveal hidden">
+            <p>🌟✨ Here is Plan C! ✨🌟</p>
+            <p>🕵️‍♂️ Dear BXX,</p>
+            <p>🤫 OMG Please keep <strong>Plan A</strong> and <strong>Plan B</strong> top secret! 🤐</p>
+            <p>💡 It's unnecessary now—everything has gone back to normal. 😔</p>
+            <p>🎉 Thank you so much for participating; you are the best! 🏆🙂</p>
+            <p>🌸 Wishing you a wonderful day! 🌸</p>
+            <button onclick="closeReveal(3)">Close</button>
+        </div>
+    </div>
+    <div class="card card-x">
+        <h2 style="color: #aa9c60; font-weight: bold; font-family: 'Fredoka One', cursive;">
+            Plan X: A Mysterious Plan For You 👻
+        </h2>
+        <div class="lottery-container">
+            <div class="lottery-box" style="color: #706742; font-weight: bold; font-family: 'Pangolin', cursive;" onclick="reveal(4)">
+                Plan X
+            </div>
+        </div>
+        <div id="reveal4" class="reveal hidden">
+            <p>📸 This picture is from Professor Shane's MUS104 class, where he encouraged everyone to love music regardless of their majors.</p>
+            <p>🎼 Professor Cohen later proved to be the most helpful mentor for my degree. That’s why I insist: even if the theatre has a better union, a better platform such as Composer Now, or even if you bring Obama in, I will neither dress differently nor speak differently for the so-called “better audiences.”</p>
+            <p>🎭 My Plan X is to embrace reverse portraiture—it doesn’t matter how many people laugh at me. Let’s badmouth Beethoven all the way to Morton Feldman, and then highlight Professor Shane and Professor Cohen.</p>
+            <p>😅 I really dislike what I call “shame avant-garde,” but since shame is a strong word, I’ve replaced it with “avant trends-garde.” However, I hope you become a genuine avant-garde artist or the one you aspire to be. Even if not like my favorite, Stockhausen, at least be like Professor Cohen. 🙂 Then, 🌟 as an avant trad, I wish you good luck! 🙂 </p>
+            <img src="ProfCohen.jpeg" alt="Plan X" class="reveal-image">
+            <button onclick="closeReveal(4)">Close</button>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>

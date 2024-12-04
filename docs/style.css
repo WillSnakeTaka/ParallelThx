@@ -1,0 +1,207 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('ECard.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Headings */
+.main-heading, .secondary-heading {
+    color: #aa9c60;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+/* Card Styles */
+.card {
+    position: absolute;
+    padding: 16px;
+    top: 25%;
+    left: 10%;
+    right: 52%;
+    background-color: rgba(134, 69, 165, 0.7);
+    border: 3px solid #706742;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-x {
+    position: absolute;
+    top: 59%;
+    left: 57%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #706742;
+    border-radius: 15px;
+}
+
+
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Lottery Styles */
+.lottery-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.lottery-box {
+    width: 120px;
+    height: 50px;
+    background-color: #92c2e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .card, .card-x {
+        width: 80%;
+    }
+    .lottery-box {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card, .card-x {
+        width: 90%;
+    }
+    .lottery-box {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+/* Left to right animation for .card */
+@keyframes slide-left-to-right {
+    0% {
+        transform: translateX(-100%); /* Start off-screen to the left */
+        opacity: 0; /* Invisible */
+    }
+    50% {
+        transform: translateX(20%); /* Overshoot for a fancy effect */
+        opacity: 0.8; /* Slightly visible */
+    }
+    100% {
+        transform: translateX(0); /* End at its original position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* Right to left animation for .card-x */
+@keyframes slide-right-to-left {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+        opacity: 0; /* Invisible */
+    }
+    50% {
+        transform: translateX(-20%); /* Overshoot for a fancy effect */
+        opacity: 0.8; /* Slightly visible */
+    }
+    100% {
+        transform: translateX(0); /* End at its original position */
+        opacity: 1; /* Fully visible */
+    }
+}
+.card {
+    animation: slide-left-to-right 1.5s ease-out; /* Left to right */
+}
+
+.card-x {
+    animation: slide-right-to-left 1.5s ease-out;
+    animation-delay: 0.5s; /* Staggered entry for dramatic effect */
+}
+/* Left to right with bounce */
+@keyframes slide-left-to-right {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(20%);
+        opacity: 0.8;
+    }
+    70% {
+        transform: translateX(-10%); /* Bounce back slightly */
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Right to left with bounce */
+@keyframes slide-right-to-left {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(-20%);
+        opacity: 0.8;
+    }
+    70% {
+        transform: translateX(10%); /* Bounce back slightly */
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+p {
+    font-family: 'Fredoka One', cursive; /* Fancy font */
+    font-size:21px; /* Adjust size as needed */
+    color: black; /* Black text */
+    text-align: center; /* Center-align text */
+    position: relative; /* For layering the glow effect */
+    z-index: 1; /* Ensure text is above the glow */
+    text-shadow: 
+        0 0 5px #bab167, /* Outer gold radiance */
+        0 0 10px #b1a75d, 
+        0 0 20px #928943, 
+        0 0 30px #766d2e, 
+        0 0 40px #bab167, 
+        0 0 50px #69612a; /* Layered glow for depth */
+}
+
+/* Optional container styling for layout adjustments */
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full height of the viewport */
+}
+
+/* For p spacing with emojis */
+p span {
+    display: inline-block;
+    margin-left: 0.2em; /* Add spacing for emojis */
+    vertical-align: middle; /* Align emojis with text */
+}
+
+.reveal-image {
+    max-width: 100%; /* Ensure it doesn't overflow the container */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 15px; /* Add spacing above the image */
+    border-radius: 10px; /* Optional: Rounded edges for the image */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: Subtle shadow */
+}
+
+@media (max-width: 768px) {
+    .reveal-image {
+        max-width: 90%; /* Slightly smaller for narrower devices */
+    }
+}
+
