@@ -29,7 +29,7 @@ I had a similar parallel problem with my tech courses too—so many arrogant and
 
 So, now I see you as an angel too. That’s why I thought, “Damn, this guy actually saved me $2005 (the $2000 plus the $5 card if I’d bought you one last year and written down Plan A, B, C).” It worked locally, but not on my cheap GitHub repo. The song won’t auto-play on the GitHub page—only on my app. But you need to click the song at the top left.
 
-The song is a friendly, satirical tune called "Cover Your Ears, Close Your Eyes, and Let the Silence Speak and Dance for Itself." The first part is an intro circus-like piano from last year, then a merry-go-round piano piece from the Winter C forum. I added a random off-tune lyric with Synthesizer V voice and typed the syllabus one by one with accents—lol—but it was fun to make 😊.
+The song is a friendly, satirical tune called "Cover Your Ears, Close Your Eyes, and Let the Silence Speak and Dance for Itself." The first part is an intro circus-like piano from last year, then a merry-go-round piano piece from the Winter Composer forum. I added a random off-tune lyric with Synthesizer V voice and typed the syllabus one by one with accents—lol—but it was fun to make 😊.
 
 Let’s make this more woke than 4:33. After hearing the song, play as your own musician for a year 💀. Anyway, I’ll stop here—I haven’t slept, it’s 7:42 am. I’ve had three sleepless nights due to heavy workloads. Hussam said I’m not the worst in the data track, and he was very kind, even though our group was seriously disorganized, and we finished everything at the last minute.
 
@@ -39,7 +39,7 @@ This feels so parallel. I know I’m probably the worst person in your experienc
 ## 🤖**About the song**
 The song is titled **"Cover Your Ears, Close Your Eyes, and Let the Silence Speak and Dance for Itself"**. It has:
 - An intro circus-like piano theme from last year
-- A merry-go-round piano piece from Winter C forum
+- A merry-go-round piano piece from Winter Composer forum
 - Random off-tune lyrics created with Synthesizer V voice, reflecting my syllabus one by one
 
 The song is intentionally playful, with a lighthearted approach to artistic expression.
