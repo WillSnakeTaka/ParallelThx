@@ -1,6 +1,6 @@
 # ParallelThx
 
-**ParallelThx** is a digital e-card designed to express gratitude to Hussam's parallel ex-evil twin😔, now seen as an angel too thanks to Hussam's intangible influence. This project serves as a heartfelt and creative token of appreciation. A love and hate relationship that saved me 2005$.
+**ParallelThx** is a digital e-card designed to express gratitude to Hussam's parallel ex-"evil" twin😔, now seen as an angel too thanks to Hussam's intangible influence. This project serves as a heartfelt and creative token of appreciation. A love and hate relationship that saved me 2005$.
 
 ---
 ## 🌟 **About the Project**
