@@ -2,7 +2,8 @@
 
 **ParallelThx** is a digital e-card designed to express gratitude to Hussam's parallel ex-"evil" twin😔, now seen as an angel too thanks to Hussam's intangible influence. This project serves as a heartfelt and creative token of appreciation. A love and hate relationship that saved me 2005$.
 
-By quitting this silly game, I gained more time to compose music and study data science. I didn’t get Thor from the fusion event, but I got Hussam, so it was totally worth it!😊 [![Failed Thor fusion](https://img.youtube.com/vi/_iuvgD3QsXo/0.jpg)](https://youtube.com/shorts/_iuvgD3QsXo?si=LScEv1cGYwSu6vTu)
+By quitting this silly game, I gained more time to compose music and study data science. I didn’t get Thor from the fusion event, but I got Hussam, so it was totally worth it!😊
+[![Failed Thor fusion](https://img.youtube.com/vi/_iuvgD3QsXo/0.jpg)](https://youtube.com/shorts/_iuvgD3QsXo?si=LScEv1cGYwSu6vTu)
 
 
 ---
